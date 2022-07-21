@@ -32,6 +32,7 @@ canvas.size = new Size(canvSize, canvSize);
 canvas.respectScreenScale = true;
 
 let widget = new ListWidget()
+widget.url = "cowboy://"
 let clientId
 let uid
 let accessToken
