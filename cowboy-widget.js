@@ -32,7 +32,7 @@ canvas.size = new Size(canvSize, canvSize);
 canvas.respectScreenScale = true;
 
 let widget = new ListWidget()
-widget.url = "cowboy://"
+widget.url = "shortcuts://run-shortcut?name=unlock-cowboy"
 let clientId
 let uid
 let accessToken
