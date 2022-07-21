@@ -22,6 +22,8 @@ An iOS scriptable widget which shows details of the Cowboy ebike such as battery
 
 <img src="https://user-images.githubusercontent.com/9810829/180295049-4c534882-2ee4-41ec-a5f5-a2337d0929f6.jpg" width="250"/>
 
+Optional: if you want the widget to unlock your bike once you tap it, install this Siri shortcut: [Download](https://www.icloud.com/shortcuts/bef3979a8c3a4672aee88ca545f7c81b)
+
 ## Thanks
 Many thanks to [@simonbs](https://twitter.com/simonbs) who builds fantastic apps like [Scriptable](https://scriptable.app). Thanks to Samuel Dumont who built a Cowboy [home assistant plugin](https://gitlab.com/samueldumont/python-cowboy-bike) and reverse engineered the api calls from the official Cowboy app.
 
