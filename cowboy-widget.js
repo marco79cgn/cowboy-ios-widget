@@ -144,7 +144,7 @@ async function createWidget() {
 		widget.addSpacer(4)
 
 		let locationText = widget.addText("LOCATION")
-		locationText.font = Font.semiboldSystemFont(10)
+		locationText.font = Font.boldSystemFont(10)
 		locationText.textColor = labelColor
 		locationText.textOpacity = 0.8
 
