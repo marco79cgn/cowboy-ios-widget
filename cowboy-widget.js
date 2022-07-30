@@ -7,7 +7,7 @@ let password
 const param = args.widgetParameter;
 if (param != null && param.length > 0) {
 	if (param.indexOf(";") > 0) {
-		email = param.substring(0, param.indexOf(';') - 1).trim();
+		email = param.substring(0, param.indexOf(';')).trim();
 		password = param.substring(param.indexOf(';') + 1).trim();
 	} else {
 		console.log("Error reading user credentials.")
@@ -316,7 +316,7 @@ async function authenticateUser() {
 		"Content-Type": "application/json"
 	}
 	req.method = "POST"
-	req.body = '{"email": ' + email + ', "password": ' + password + '}'
+	req.body = JSON.stringify({ email, password })
 
 	let result = await req.loadJSON()
 	if (req.response.statusCode = 200) {
